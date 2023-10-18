@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dhairya's Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="loco.css">
+</head>
+<body>
+    <div id="navaurhead">
+    <div id="nav">
+        <ul>
+        <li><a href="#header" class="green">Home</a></li>
+        <li><a href="#aboutarea" class="orange">About</a></li>
+        <li><a href="#portfolio" class="pink">portfolio</a></li>
+        <li><a href="#container" class="blue">contact</a></li>
+    </ul>
+    </div>
+    <div id="header">
+        <div id="txtarea">
+            <div id="txt">
+                <div id="uppertxt">
+                    <h1>Hi, I'm </h1>
+                    <h1 class="orange">&nbsp; Dhairya</h1>
+                </div>
+                <div id="bottomtxt">
+                    <h1>a web dev enthusiast</h1>
+                    <h5>currently in Jaipur</h5>
+                </div>
+            </div>
+        </div>
+        <div id="imgarea">
+            <img src="me-removebg-preview.png" alt="">
+        </div>
+    </div>
+</div>
+    <div id="aboutarea">
+        <div id="imggola"></div>
+        <div id="about">
+            <h1>(About me)</h1>
+            <p>Hello! I'm an engineer fueled by a passion for solving problems and creating innovative solutions. Over the past two years, I've immersed myself in the world of web development, honing my skills in both frontend and backend technologies. My enthusiasm for crafting seamless and user-friendly experiences has driven me to explore and master various tools and frameworks.
+
+                In addition to my expertise in web development, I bring a strong foundation in programming languages such as Java and Python. These languages have not only expanded my technical repertoire but also equipped me with the versatility to tackle diverse challenges.
+                
+                I thrive on the dynamic nature of the tech industry and am always eager to apply my knowledge to contribute meaningfully to projects and initiatives. Let's build something incredible together!</p>
+        </div>
+    </div>
+     <div id="portfolio">
+        <div id="portfoliotabs">
+        <p class="tablinks activelink" onclick="opentab('skills')">Skills</p>
+        <p class="tablinks" onclick="opentab('projects')">Projects</p>
+        <p class="tablinks" onclick="opentab('education')">Eduction</p>
+    </div>
+    <div class="portfoliocontent activetab" id="skills">
+        <ul>
+            <li><span>Web development</span><br><p>HTML,CSS,JavaScript,React/Next.js,Node/Express.js</p></li>
+            <li><span>Languages</span><br><p>Java and Python</p></li>
+            <li><span>Databases</span><br><p>MySql and MongoDB</p></li>
+            <li><span>Other</span><br><p>Basic editing</p></li>
+        </ul>
+    </div>
+    <div class="portfoliocontent" id="projects">
+        <ul>
+            <li><span>StatPad</span><br><p>A cricket stats website.</p></li>
+            <li><span>cross/zero</span><br><p>A popular pen-paper game cross/zero with help of HTML,CSS & JS</p></li>
+            <li><span>Myntra clone</span><br><p>A clone of popular e-commerce website Myntra</p></li>
+            <li><span>Liberray Management System</span><br><p>A liberary management system using OOPs in Python</p></li>
+        </ul>
+    </div>
+    <div class="portfoliocontent" id="education">
+        <ul>
+            <li><span>10th Board CBSE</span><br><p>From St. pauls ser sec school Udaipur</p></li>
+            <li><span>12th Board CBSE</span><br><p>From St. pauls ser sec school Udaipur</p></li>
+            <li><span>B.tech</span><br><p>From JECRC University Jaipur</p></li>
+        </ul>
+    </div>
+     </div>
+     <div id="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="green">contact me</h1>
+                <p>yadavoctober2002@gmail.com</p>
+                <p>8058010029</p>
+                <div class="social-icon">
+                    <a href="www.linkedin.com/in/dhairya-yadav-990256282"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/DhairyaYadav"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://instagram.com"><i class="fa-brands fa-square-instagram"></i></a>
+                </div>
+            </div>
+            <a id="dnload" href="resume 19-7-23 (2).docx" download >Download CV</a>
+            <div class="contact-right">
+                <form action="">
+                    <input type="text" name="Name" placeholder="Your Name" required >
+                    <input type="email" name="email" placeholder="Your email" required >
+                    <textarea name="message" rows="6" placeholder="Your message" ></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+     </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
